@@ -20,7 +20,7 @@ module.exports = env => {
     resolve: {
       extensions: ['.js', '.jsx'],
       alias: {
-        testUtils: path.resolve(__dirname, './testUtils/'),
+        testUtils: path.resolve(__dirname, 'testUtils/'), // because ESLint reads from webpack alias
       },
     },
     module: {

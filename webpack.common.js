@@ -59,16 +59,17 @@ module.exports = env => {
                 sourceMap,
               },
             },
-            // {
-            // loader: 'sass-resources-loader',
-            // options: {
-            // resources: [
-            /* './src/abstracts/global/*.scss */
-            // These will be included in every file. Make sure you only globally include Sass things like Sass variables and mixins.
-            // E.g. if you include CSS custom properties, they'll be imported multiple times.
-            // ],
-            // },
-            // },
+            {
+              loader: 'sass-resources-loader',
+              options: {
+                resources: ['./src/abstracts/resources/*.scss'],
+                /*
+                  These will be included in every file.
+                  Make sure you only globally include Scss things like Scss variables and mixins.
+                  Don't include CSS things like CSS custom properties as they'll be imported multiple times in your CSS files.
+                  */
+              },
+            },
           ],
         },
         {

@@ -31,7 +31,7 @@
     "email": "sargalias@gmail.com",
     "url": "https://sargalias.com"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "classnames": "^2.2.6",
     "react": "^16.8.6",

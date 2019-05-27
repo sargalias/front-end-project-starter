@@ -12,3 +12,7 @@ test('h1 class', () => {
   const h1 = container.querySelector('h1');
   expect(h1.classList.contains('App_heading')).toBe(true);
 });
+
+test('jest-extended', () => {
+  expect(true).toBeTrue();
+});

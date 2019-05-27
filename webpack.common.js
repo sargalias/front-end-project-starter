@@ -53,6 +53,7 @@ module.exports = env => {
                 localIdentName: '[local]--[hash:base64:5]',
               },
             },
+            'postcss-loader',
             {
               loader: 'sass-loader',
               options: {

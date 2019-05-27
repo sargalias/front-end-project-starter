@@ -1,7 +1,7 @@
 {
-  "name": "light-bright",
+  "name": "front-end-project-starter",
   "version": "1.0.0",
-  "description": "A simple light-bright app.",
+  "description": "A simple front end project starter",
   "main": "src/app.js",
   "scripts": {
     "start": "webpack-dev-server --open --config ./webpack.dev.js",

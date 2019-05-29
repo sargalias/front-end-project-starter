@@ -189,6 +189,7 @@ The code coverage threshold with Jest is set to 90%. This can be changed by modi
   - [jest-extended](https://github.com/jest-community/jest-extended) - More awesome assertions for Jest
 - [Cypress](https://github.com/cypress-io/cypress) - End-to-end testing framework
 - [React testing library](https://github.com/testing-library/react-testing-library) - Test utilities for React
+- [Cypress testing library](https://github.com/testing-library/cypress-testing-library) - Test utilities for Cypress
 - [ESLint](https://github.com/eslint/eslint) - JavaScript static code analysis
   - [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb) - Aribnb's .eslintrc
   - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) - For using Prettier with ESLint

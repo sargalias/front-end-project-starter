@@ -3,6 +3,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const StyleLintPlugin = require('stylelint-webpack-plugin');
+const webpack = require('webpack');
 
 module.exports = env => {
   if (env.prod === undefined) {
@@ -14,7 +15,8 @@ module.exports = env => {
   return {
     entry: './src/index.jsx',
     output: {
-      filename: 'main.bundle.js',
+      filename: '[name].[contenthash].js',
+      chunkFilename: '[name].[contenthash].js',
       path: path.resolve(__dirname, 'dist'),
     },
     resolve: {
@@ -79,6 +81,9 @@ module.exports = env => {
         },
       ],
     },
+    optimization: {
+      runtimeChunk: 'single',
+    },
     plugins: [
       new CleanWebpackPlugin(),
       new HtmlWebpackPlugin({
@@ -87,6 +92,7 @@ module.exports = env => {
       new StyleLintPlugin({
         emitErrors: env.prod,
       }),
+      new webpack.HashedModuleIdsPlugin(),
     ],
   };
 };

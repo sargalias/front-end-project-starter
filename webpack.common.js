@@ -14,7 +14,7 @@ module.exports = env => {
   return {
     entry: './src/index.jsx',
     output: {
-      filename: 'main.bundle.js',
+      filename: '[name].[contenthash].js',
       path: path.resolve(__dirname, 'dist'),
     },
     resolve: {

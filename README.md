@@ -27,6 +27,7 @@ Main features include:
 - React.
 - Webpack dev server for a great server with live-reloading capabilities and HTTPS.
 - Dynamic imports and code splitting.
+- Caching with hashes in filenames for JavaScript and CSS.
 - Strict ESLint and Stylelint with many plugins for good development practices
   - Stylint rule "selector-class-pattern" is enabled, enforcing a SCSS class pattern of BemBlock_bemElement\_\_\_bemModifier.
 - Jest with jsdom for fast unit testing and integration testing.

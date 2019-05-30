@@ -8,4 +8,11 @@ const App = () => (
   </div>
 );
 
+// dynamic importing
+import('./foo' /* webpackChunkName: "Foo" */ /* webpackPreload: true */).then(
+  Foo => {
+    console.log(`resolved foo with value: ${Foo.default}`); // eslint-disable-line
+  },
+);
+
 export default App;

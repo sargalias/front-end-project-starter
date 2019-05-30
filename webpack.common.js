@@ -16,6 +16,7 @@ module.exports = env => {
     entry: './src/index.jsx',
     output: {
       filename: '[name].[contenthash].js',
+      chunkFilename: '[name].[contenthash].js',
       path: path.resolve(__dirname, 'dist'),
     },
     resolve: {

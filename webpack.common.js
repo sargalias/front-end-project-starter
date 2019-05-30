@@ -79,6 +79,9 @@ module.exports = env => {
         },
       ],
     },
+    optimization: {
+      runtimeChunk: 'single',
+    },
     plugins: [
       new CleanWebpackPlugin(),
       new HtmlWebpackPlugin({

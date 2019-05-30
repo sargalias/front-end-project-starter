@@ -1,6 +1,6 @@
 module.exports = api => {
   const presets = ['@babel/preset-react'];
-  const plugins = [];
+  const plugins = ['@babel/plugin-syntax-dynamic-import'];
 
   const isTest = api.env('test');
   if (isTest) {

@@ -210,6 +210,7 @@ The code coverage threshold with Jest is set to 90%. This can be changed by modi
   - [eslint-plugin-react-hooks](https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks) - Rules for React hooks
   - [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security) - Rules preventing unsafe use of JavaScript
   - [eslint-plugin-xss](https://github.com/Rantanen/eslint-plugin-xss) - Rules for detecting XSS issues
+  - [eslint-plugin-sonarjs](https://github.com/SonarSource/eslint-plugin-sonarjs) - SonarJS rules
 - [Stylelint](https://github.com/stylelint/stylelint) - CSS static code analysis
   - [stylelint-config-idiomatic-order](https://github.com/ream88/stylelint-config-idiomatic-order) - Imposes an order for CSS declarations
   - [stylelint-config-prettier](https://github.com/prettier/stylelint-config-prettier) - For using Prettier with Stylelint

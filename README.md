@@ -223,7 +223,6 @@ The code coverage threshold with Jest is set to 90%. This can be changed by modi
   - [babel-jest](https://github.com/facebook/jest/tree/master/packages/babel-jest) - For Jest to transpile code
   - [babel-plugin-dynamic-import-node](https://github.com/airbnb/babel-plugin-dynamic-import-node) - To enable dynamic imports in Node (for tests)
   - [babel-plugin-syntax-dynamic-import](https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-dynamic-import) - To enable dynamic imports in the browser
-  - [regenerator-runtime](https://github.com/facebook/regenerator/tree/master/packages/regenerator-runtime) - For using async / await in Node
 - [Husky](https://github.com/typicode/husky) - Simple Git hooks
   - [lint-staged](https://github.com/okonet/lint-staged) - To allow us to run commands on git staged files
 - [npm-run-all](https://github.com/mysticatea/npm-run-all) - To allow us to run multiple NPM commands in scripts

@@ -13,6 +13,5 @@ module.exports = {
       lines: 90,
     },
   },
-  setupFiles: ['<rootDir>/node_modules/regenerator-runtime/runtime'],
   setupFilesAfterEnv: ['jest-extended'],
 };

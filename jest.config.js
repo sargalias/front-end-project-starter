@@ -14,4 +14,5 @@ module.exports = {
     },
   },
   setupFilesAfterEnv: ['jest-extended'],
+  testMatch: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(test).[jt]s?(x)'],
 };
